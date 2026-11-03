@@ -1,0 +1,23 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "A.I. Hub Help Centre",
+  "colors": {
+    "primary": "#242a13"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": [
+              "en/index"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
