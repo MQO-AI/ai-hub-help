@@ -5,6 +5,11 @@
   "colors": {
     "primary": "#242a13"
   },
+  "logo": {
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png"
+  },
+  "favicon": "/images/favicon.png",
   "navigation": {
     "languages": [
       {
