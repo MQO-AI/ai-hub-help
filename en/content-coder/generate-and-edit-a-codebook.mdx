@@ -1,0 +1,42 @@
+---
+title: Generate and edit a codebook
+description: Prepare categories and definitions for coding a question's responses.
+---
+
+A codebook defines the categories used to code a question's responses, helping you apply them consistently.
+
+The **Detailed Codebook** contains category descriptions and examples. The **Clean Codebook** is the numbered list used for coding. You can generate a starting book and refine it, or enter your own numbered categories in the clean book.
+
+## Generate a codebook
+
+1. Open a project in **A.I. Content Coder**, then select the question you want to code.
+2. Check the question text. Add useful background in **Question Context / Special Instructions** if needed. For example, explain an acronym used in the responses or ask for a maximum number of categories.
+3. Select **A.I. Generate Codebook**. Review the **Question Text** and optional **Additional Context**, then select **Generate the Codebook**.
+4. Review the detailed definitions, examples, and clean category list. Check that the categories fit the responses and that their boundaries are clear before coding.
+
+For example, for a question about service improvements, a detailed category could define when an answer belongs in **Wait times** and give an illustrative example. The clean book should contain the corresponding numbered category. Check both books if you change the definition or the category name.
+
+Generating and checking a codebook uses your normal A.I. allowance. A **Codebook Check** may open after generation to show sample frequencies and suggestions. Review its results before deciding whether to change the categories.
+
+## Edit or refine the codebook
+
+- To edit the detailed text yourself, select **Edit Codebook**, make your changes, and select **Save Changes** in the dialog. **Edit Clean Codebook** is selected initially, so the clean list is updated from your edited detailed book. Clear that option if you want to keep the existing clean list, then check that the two books still agree.
+- To ask A.I. for a change, select **A.I. Refine**, describe the change, and select **Refine Codebook**. For example, ask it to separate comments about staff availability from comments about staff knowledge, then inspect the revised definitions and clean list. You can leave the dialog without submitting to keep the current book.
+- To make another generation attempt with the current question and context, select **Re-Try**.
+- To use your own numbered categories, type or paste them into **Clean Codebook**. Review the list. For a generated detailed book, **Fix** can help correct the clean list formatting; review the result.
+
+**Include DK/NA** and **Include Other** are selected by default for a new empty book. Uncheck either choice to exclude it from future checks and coding. If you already have coding, confirm the change and run new coding before starting a new verification. Existing coding and saved reviews remain unchanged.
+
+## Save and return to an earlier version
+
+Use **Save Changes** in the project sidebar to save the current question, context, codebooks, coding setting, and output. You can view saved versions in **Version History**. Open a version with **View** to inspect its contents.
+
+For a project that is not linked to a Survey, **Rollback to this Version** restores the saved question, context, codebooks, setting, and coded output. Review the version carefully before rolling back. For a linked Survey project, copy the desired codebook from the earlier version and recode instead; rollback cannot restore earlier responses.
+
+If a save fails, keep a copy of your unsaved changes and follow the displayed message. Sign in again if your session has expired.
+
+## Related tasks
+
+- [Check a codebook](./check-codebook)
+- [Understand Content Coder settings](./understand-coding-settings)
+- [Code responses](./code-responses-and-continue)

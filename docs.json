@@ -5,6 +5,11 @@
   "colors": {
     "primary": "#242a13"
   },
+  "logo": {
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png"
+  },
+  "favicon": "/images/favicon.png",
   "navigation": {
     "languages": [
       {
@@ -13,7 +18,74 @@
           {
             "group": "Get started",
             "pages": [
-              "en/index"
+              "en/index",
+              "en/access-admin/sign-in-and-join",
+              "en/chat-content/start-a-chat"
+            ]
+          },
+          {
+            "group": "A.I. Chat and Content Centre",
+            "pages": [
+              "en/chat-content/use-chat-context",
+              "en/chat-content/attach-or-generate-images",
+              "en/chat-content/start-analysis-chat",
+              "en/chat-content/work-with-a-document",
+              "en/chat-content/create-document-from-chat",
+              "en/chat-content/save-and-organise-resources",
+              "en/chat-content/create-a-context-pack",
+              "en/chat-content/use-quick-prompts",
+              "en/chat-content/find-and-organise-chats",
+              "en/chat-content/share-a-chat-or-message"
+            ]
+          },
+          {
+            "group": "Content Coder",
+            "pages": [
+              "en/content-coder/create-project-from-file",
+              "en/content-coder/generate-and-edit-a-codebook",
+              "en/content-coder/understand-coding-settings",
+              "en/content-coder/code-responses-and-continue",
+              "en/content-coder/check-codebook",
+              "en/content-coder/verify-coding",
+              "en/content-coder/interpret-verification-report"
+            ]
+          },
+          {
+            "group": "Audio Transcriber",
+            "pages": [
+              "en/transcriber-admin/transcribe-audio-and-video",
+              "en/transcriber-admin/read-and-download-a-transcript",
+              "en/transcriber-admin/set-transcription-defaults"
+            ]
+          },
+          {
+            "group": "Workflows and exports",
+            "pages": [
+              "en/workflows/import-survey-transfers",
+              "en/workflows/qbit-and-content-coder",
+              "en/workflows/export-coding"
+            ]
+          },
+          {
+            "group": "Account and access",
+            "pages": [
+              "en/access-admin/manage-profile-and-platform-defaults",
+              "en/access-admin/projects-and-sharing-across-products",
+              "en/access-admin/two-factor-authentication",
+              "en/access-admin/recover-account-access",
+              "en/access-admin/troubleshoot-unavailable-app"
+            ]
+          },
+          {
+            "group": "Organisation administration",
+            "pages": [
+              "en/access-admin/create-organisation-and-registration-portal",
+              "en/access-admin/invite-and-manage-users",
+              "en/access-admin/manage-teams-and-administrators",
+              "en/access-admin/manage-organisation-branding",
+              "en/access-admin/manage-organisation-security",
+              "en/access-admin/view-billing-and-subscription",
+              "en/access-admin/understand-qokens-and-limits"
             ]
           }
         ]
