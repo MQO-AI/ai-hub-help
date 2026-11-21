@@ -1,0 +1,33 @@
+---
+title: Create a Content Coder project from a file
+description: Import response data and choose the questions to code.
+---
+
+Create a Content Coder project from a file to organise its responses and coding work by question.
+
+## When to use it
+
+Use a file when your responses are in SPSS `.sav`, Excel `.xls`, `.xlsx`, or `.xlsm`, or CSV format. If you have a survey transfer instead, see [Import survey transfers](../workflows/import-survey-transfers).
+
+## Prepare your file
+
+Use one row per respondent and a separate column for each question. Include an ID column with a unique whole number for every row. IDs must be between -2,147,483,648 and 2,147,483,647. Review your file for sensitive information before uploading it.
+
+For example, a file might have `respondent_id`, `service_comment`, and `contact_email` columns. Select `respondent_id` as the identifier and include `service_comment` as a question. Exclude `contact_email` if you do not need to code it.
+
+## Create the project
+
+1. Open **A.I. Content Coder** and choose **Start a new Project**.
+2. Select or drag in your responses file. Wait for the file preview.
+3. In **Setup New Project**, check the project name and respondent count.
+4. Under **Select Respondent ID Column**, choose the column containing the unique respondent IDs. Check the selected column even if one has been chosen for you.
+5. Review the question columns. Recognised system fields and empty columns start excluded. Use **Include**, **Exclude**, **Include All**, or **Exclude All** to choose the questions you need. At least one question is required.
+6. Select **Create Project**. In **Project Details**, select a question to prepare its codebook.
+
+The ID column identifies each response row and is not offered as a question. Review the included columns rather than relying only on their initial selection. Select a question in **Project Details** to see its responses and coding workspace.
+
+Excluding a column from questions does not remove response rows. Original columns can be included later in an export of the coded results.
+
+## If the file does not import
+
+Read any warning shown in the preview. If the ID column cannot be selected, check that every row has a unique, supported whole-number ID. If no question is selected, include at least one column. If the upload fails, check the file format and try again. Contact support if the error continues.
